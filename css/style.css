@@ -1,0 +1,207 @@
+*{
+	margin:  0;
+	padding: 0;
+	font-family: "Tahoma", "Arial";
+	
+}
+body{
+	height: 100vh;
+    width: 100vh;
+	font-family: "Tahoma", "Arial";
+}
+header{
+	background: url("../img/header_back.png") no-repeat;
+	height: 36px;
+    width: 1215px;
+    font-size: 12px;
+    color: #60b5ed;
+    text-align: center;
+
+}
+.menu_h{
+	background-color: #074d8a;
+	color: #4f9ed7;
+	margin-left: 550px;
+
+
+}
+.menu_h ul{
+
+}
+.menu_h li{
+	list-style: none;
+	float: left;
+	display: block;
+	text-align: center;
+	margin-top: 11px;
+}
+a.mh:link{color: #60b5ed;}
+a.mh:visited{color: #60b5ed;}
+a.mh:active{color: #60b5ed;}
+a.mh:hover{color: #60b5ed;}
+.menu_h a{
+	padding: 11px 12px 11px 12px;
+	text-decoration: none;
+}
+.menu_h a:hover{
+	background: #4eabda;
+	color: #ffffff;
+}
+.flag{
+	float: left;
+	display: block;
+	margin-top: 2px;
+	height: 32px;
+    width: 140px;
+    border-left: solid 1px #56a2dc;
+
+}
+.flag_in{
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 15px;
+	background: url("../img/flag.png") no-repeat;
+	height: 18px;
+    padding-top: 4px;
+    height: 18px;
+}
+
+.ola{
+	float: left;
+	display: block;
+	height: 36px;
+    width: 180px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#51b1dc+0,2989d8+100,207cca+100,2e7ac4+100 */
+background: #51b1dc; /* Old browsers */
+background: -moz-linear-gradient(top, #51b1dc 0%, #2989d8 100%, #207cca 100%, #2e7ac4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #51b1dc 0%,#2989d8 100%,#207cca 100%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #51b1dc 0%,#2989d8 100%,#207cca 100%,#2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b1dc', endColorstr='#2e7ac4',GradientType=0 ); /* IE6-9 */
+/*border-bottom: solid 1px #4299d2;*/
+}
+.ola_in{
+	padding-top: 11px;
+	color: #ffffff;
+}
+a.mh1:link{color: #ffffff;}
+a.mh1:visited{color: #ffffff;}
+a.mh1:active{color: #ffffff;}
+a.mh1:hover{color: #ffffff;}
+.main{
+	height: 1028px;
+    width: 1215px;
+    position: absolute;
+    background: url("../img/picture.jpg") no-repeat;
+}
+.cadastre-se{
+	
+	height: 62px;
+    width: 560px;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    color white;
+	text-align: center;    
+	font-size: 24px;
+	top: 20.5%;
+	left: 28%;
+
+}
+.inner{
+    padding-top: 12px;
+    color: #ffffff;
+	
+
+}
+.form{
+	height:550px;
+    width: 560px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 26.75%;
+	left: 28%;
+}
+.fb{
+	top: 5.75%;
+	left: 25%;
+	display: block;
+	position: absolute;
+
+}
+
+.line{
+	top: 15%;
+	left: 25%;
+	height:2px;
+    width: 276px;
+	display: block;
+	position: absolute;
+
+}
+.form1{
+	top: 23%;
+	left: 25.5%;
+	height:400px;
+    width: 276px;
+	display: block;
+	position: absolute;
+	/*margin-top: 119px;
+    padding-left: 173px;*/
+}
+input{	
+	display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	width: 260px;
+	background: #0f0f0f;
+	color: #cccccc;
+	font-size: 15px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 1px;
+	border-color: #484948;
+}
+input:hover{
+	background: #1b5288;
+	-webkit-box-shadow: -1px -1px 11px 1px rgba(79,139,178,1);
+	-moz-box-shadow: -1px -1px 11px 1px rgba(79,139,178,1);
+	box-shadow: -1px -1px 11px 1px rgba(79,139,178,1);
+}
+.chkbx input{
+	top: 65%;
+	left: 1%;
+	height:13px;
+    width: 13px;
+	display: block;
+	position: absolute;
+	font-size: 15px;
+	color: #cccccc;
+}
+.chkbx label{
+	top: 66.5%;
+	left: 8%;
+	height:13px;
+    width: 247px;
+	display: block;
+	position: absolute;
+	font-size: 15px;
+	color: #cccccc;
+}
+.button{
+	top: 79%;
+	left: 36%;
+	display: block;
+	position: absolute;
+}
+.futer{
+	top: 75.75%;
+	left: 39%;
+	display: block;
+	position: absolute;
+	font-size: 10px;
+	color: #cccccc;
+	text-align:  center;
+}
