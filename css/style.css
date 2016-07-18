@@ -13,8 +13,6 @@ html {
 }
 
 body{
-	/*height: 100vh;*/
-    /*width: 100vh;*/
 	font-family: "Tahoma", "Arial";
 }
 header{
@@ -147,7 +145,17 @@ a.mh1:hover{color: #ffffff;}
     width: 276px;
 	display: block;
 	position: absolute;
-
+}
+.OU{
+	top: 16%;
+	left: 25%;
+	height:2px;
+    width: 276px;
+	display: block;
+	color: #999999;
+	position: absolute;
+	font-size: 14px;
+	text-shadow: #666666 1px 0 1px;
 }
 .form1{
 	top: 23%;
@@ -156,8 +164,6 @@ a.mh1:hover{color: #ffffff;}
     width: 276px;
 	display: block;
 	position: absolute;
-	/*margin-top: 119px;
-    padding-left: 173px;*/
 }
 input.a{	
 	display: block;
@@ -200,13 +206,13 @@ input.b{
 }
 label{
 	top: 66.5%;
-	/*left: 8%;*/
 	height:13px;
     width: 247px;
 	display: block;
 	position: absolute;
 	font-size: 15px;
 	color: #cccccc;
+	border: 0;
 }
 button{
 	top: 77%;
@@ -218,7 +224,6 @@ button{
 .futer{
 	top: 92%;
 	left: 25%;
-	/*display: block;*/
 	position: absolute;
 	font-size: 10px;
 	color: #cccccc;
